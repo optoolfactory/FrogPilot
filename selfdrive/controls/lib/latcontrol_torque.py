@@ -23,8 +23,8 @@ from openpilot.selfdrive.modeld.constants import ModelConstants
 # friction in the steering wheel that needs to be overcome to
 # move it at all, this is compensated for too.
 
-LOW_SPEED_X = [0, 10, 20, 30]
-LOW_SPEED_Y = [15, 13, 10, 5]
+LOW_SPEED_X = [0, 10, 20, 35]
+LOW_SPEED_Y = [20, 20, 15, 8]
 LOW_SPEED_Y_NN = [12, 3, 1, 0]
 
 LAT_PLAN_MIN_IDX = 5
@@ -84,12 +84,12 @@ class LatControlTorque(LatControl):
       # Note that LAT_PLAN_MIN_IDX is defined above and is used in order to prevent
       # using a "future" value that is actually planned to occur before the "current" desired
       # value, which is offset by the steerActuatorDelay.
-      self.friction_look_ahead_v = [1.4, 2.0] # how many seconds in the future to look ahead in [0, ~2.1] in 0.1 increments
+      self.friction_look_ahead_v = [0.6, 2.0] # how many seconds in the future to look ahead in [0, ~2.1] in 0.1 increments
       self.friction_look_ahead_bp = [9.0, 30.0] # corresponding speeds in m/s in [0, ~40] in 1.0 increments
 
       # Scaling the lateral acceleration "friction response" could be helpful for some.
       # Increase for a stronger response, decrease for a weaker response.
-      self.lat_jerk_friction_factor = 0.4
+      self.lat_jerk_friction_factor = 1.6
       self.lat_accel_friction_factor = 0.7 # in [0, 3], in 0.05 increments. 3 is arbitrary safety limit
 
       # precompute time differences between ModelConstants.T_IDXS
@@ -97,7 +97,7 @@ class LatControlTorque(LatControl):
       self.desired_lat_jerk_time = CP.steerActuatorDelay + 0.3
 
     if self.use_nnff:
-      self.pitch = FirstOrderFilter(0.0, 0.5, 0.01)
+      self.pitch = FirstOrderFilter(0.0, 0.3, 0.01)
       # NN model takes current v_ego, lateral_accel, lat accel/jerk error, roll, and past/future/planned data
       # of lat accel and roll
       # Past value is computed using previous desired lat accel and observed roll
