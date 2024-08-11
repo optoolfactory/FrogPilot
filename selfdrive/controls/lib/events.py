@@ -1012,8 +1012,8 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
 
   EventName.forcingStop: {
     ET.WARNING: Alert(
-      "Forcing the car to stop",
-      "Press the gas pedal or 'Resume' button to override",
+      "정차",
+      "재출발이 필요합니다.",
       AlertStatus.frogpilot, AlertSize.mid,
       Priority.MID, VisualAlert.none, AudibleAlert.prompt, 1.),
   },
@@ -1088,7 +1088,7 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
 
   EventName.trafficModeActive: {
     ET.PERMANENT: Alert(
-      "Traffic Mode enabled",
+      "정체 크루즈 모드",
       "",
       AlertStatus.frogpilot, AlertSize.small,
       Priority.LOW, VisualAlert.none, AudibleAlert.prompt, 3.),
@@ -1096,7 +1096,7 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
 
   EventName.trafficModeInactive: {
     ET.PERMANENT: Alert(
-      "Traffic Mode Disabled",
+      "일반 크루즈 모드",
       "",
       AlertStatus.frogpilot, AlertSize.small,
       Priority.LOW, VisualAlert.none, AudibleAlert.prompt, 3.),
