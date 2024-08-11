@@ -133,7 +133,7 @@ class CarInterface(CarInterfaceBase):
 
       # Tuning for experimental long
       if use_new_api:
-        ret.longitudinalTuning.kiV = [2.0, 1.5]
+        ret.longitudinalTuning.kiV = [.05, .07]
         ret.vEgoStopping = 0.1
         ret.vEgoStarting = 0.1
       else:
