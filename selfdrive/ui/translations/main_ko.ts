@@ -1324,6 +1324,14 @@ This may take up to a minute.</source>
         <translation>선두 차량을 따르지 않을 경우 이 속도 이하의 '실험 모드'로 전환합니다.</translation>
     </message>
     <message>
+        <source>With Lead</source>
+        <translation>선행 차량 속도</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' below this speed when following a lead vehicle.</source>
+        <translation>선두 차량을 따라갈 때는 이 속도 이하에서 '실험 모드'로 전환합니다.</translation>
+    </message>
+    <message>
         <source>Curve Detected Ahead</source>
         <translation>전방 곡선 도로 감지</translation>
     </message>
@@ -1344,7 +1352,7 @@ This may take up to a minute.</source>
         <translation>내비게이션 기반</translation>
     </message>
     <message>
-        <source>Switch to 'Experimental Mode' based on navigation data. (i.e. Intersections, stop signs, upcoming turns, etc.</source>
+        <source>Switch to 'Experimental Mode' based on navigation data. (i.e. Intersections, stop signs, upcoming turns, etc.)</source>
         <translation>내비게이션 데이터를 기반으로 '실험 모드'로 전환합니다. (즉, 교차로, 정지 표지판, 다가오는 방향 등).</translation>
     </message>
     <message>
@@ -1378,9 +1386,58 @@ This may take up to a minute.</source>
         <translation>장치 관리자</translation>
     </message>
     <message>
-        <source></source>
-        <translation></translation>
+        <source>Tweak your device's behaviors to your personal preferences.</source>
+        <translation>장치의 동작을 개인 취향에 맞게 조정합니다.</translation>
     </message>
+    <message>
+        <source>Device Shutdown Timer</source>
+        <translation>장치 종료 타이머</translation>
+    </message>
+    <message>
+        <source>Configure how quickly the device shuts down after going offroad.</source>
+        <translation>오프로드 주행 후 장치가 얼마나 빨리 종료되는지 구성합니다.</translation>
+    </message>
+    <message>
+        <source>Disable Logging</source>
+        <translation>로깅 사용 안 함</translation>
+    </message>
+    <message>
+        <source>Turn off all data tracking to enhance privacy or reduce thermal load.</source>
+        <translation>프라이버시를 강화하거나 열 부하를 줄이기 위해 모든 데이터 추적을 끕니다.</translation>
+    </message>
+    <message>
+        <source>Disable Uploads</source>
+        <translation>업로드 사용 안 함</translation>
+    </message>
+    <message>
+        <source>Turn off all data uploads to comma's servers.</source>
+        <translation>콤마 서버에모든 데이터 업로드를 끕니다.</translation>
+    </message>
+    <message>
+        <source>Increase Thermal Safety Limit</source>
+        <translation>안전 온도 증가</translation>
+    </message>
+    <message>
+        <source>Allow the device to run at a temperature above comma's recommended thermal limits.</source>
+        <translation>장치를 콤마에서 권장하는 한계보다 높은 온도에서 실행하도록 허용하세요.</translation>
+    </message>
+    <message>
+        <source>Low Voltage Shutdown Threshold</source>
+        <translation>저전압 종료 임계값</translation>
+    </message>
+    <message>
+        <source>Automatically shut the device down when your battery reaches a specific voltage level to prevent killing your battery.</source>
+        <translation>배터리가 특정 전압 수준에 도달하면 자동으로 장치를 꺼서 배터리가 소모되는 것을 방지합니다.</translation>
+    </message>
+    <message>
+        <source>Offline Mode</source>
+        <translation>오프라인 모드</translation>
+    </message>
+    <message>
+        <source>Allow the device to be offline indefinitely.</source>
+        <translation>기기를 무기한 오프라인 상태로 둡니다.</translation>
+    </message>
+
 
 
     <message>
