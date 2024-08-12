@@ -1281,6 +1281,10 @@ This may take up to a minute.</source>
         <source>Conditional Experimental Mode</source>
         <translation>조건부 실험 모드</translation>
     </message>
+    <message>
+        <source>Automatically switches to 'Experimental Mode' under predefined conditions.</source>
+        <translation>사전 정의된 조건에서 자동으로 '실험 모드'로 전환됩니다.</translation>
+    </message>
 
     <message>
         <source>Device Management</source>
