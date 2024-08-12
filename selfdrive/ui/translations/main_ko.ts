@@ -1267,7 +1267,7 @@ This may take up to a minute.</source>
 
 
 <context>
-    <name>AlwaysOnLateral</name>
+    <name>FrogPilotControlsPanel</name>
     <message>
         <source>Always on Lateral</source>
         <translation>상시 조향</translation>
