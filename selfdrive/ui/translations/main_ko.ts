@@ -694,6 +694,22 @@ This may take up to a minute.</source>
         <source>Software</source>
         <translation>소프트웨어</translation>
     </message>
+    <message>
+        <source>Controls</source>
+        <translation>제어판</translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation>내비게이션</translation>
+    </message>
+    <message>
+        <source>Vehicles</source>
+        <translation>차량정보</translation>
+    </message>
+    <message>
+        <source>Visuals</source>
+        <translation>비주얼</translation>
+    </message>
 </context>
 <context>
     <name>Setup</name>
