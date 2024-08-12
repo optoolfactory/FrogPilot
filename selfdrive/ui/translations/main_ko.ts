@@ -1272,9 +1272,66 @@ This may take up to a minute.</source>
         <source>Always on Lateral</source>
         <translation>상시 조향</translation>
     </message>
+
     <message>
-        <source>Maintain openpilot lateral control when the brake or gas pedals are used.</source>
-        <translation>브레이크나 엑셀을 밟아도 오픈파일럿의 조향을 상시 유지 합니다.</translation>
+        <source>Conditional Experimental Mode</source>
+        <translation>조건부 실험 모드</translation>
     </message>
+
+    <message>
+        <source>Device Management</source>
+        <translation>장치 관리자</translation>
+    </message>
+
+    <message>
+        <source>Driving Personalities</source>
+        <translation>DrivingPersonalities</translation>
+    </message>
+
+    <message>
+        <source>Experimental Mode Activation</source>
+        <translation>실험모드 활성화</translation>
+    </message>
+
+    <message>
+        <source>Lane Change Customizations</source>
+        <translation>차선변경 설정</translation>
+    </message>
+
+    <message>
+        <source>Lateral Tuning</source>
+        <translation>조향 튜닝</translation>
+    </message>
+
+    <message>
+        <source>Longitudinal Tuning</source>
+        <translation>LongitudinalTune</translation>
+    </message>
+
+    <message>
+        <source>Map Turn Speed Control</source>
+        <translation>지도 기반 좌/우회전 속도 조절</translation>
+    </message>
+
+    <message>
+        <source>Model Management</source>
+        <translation>드라이빙 모델 관리</translation>
+    </message>
+
+    <message>
+        <source>Quality of Life</source>
+        <translation>Quality of Life</translation>
+    </message>
+
+    <message>
+        <source>Speed Limit Controller</source>
+        <translation>속도 제한 제어판</translation>
+    </message>
+
+    <message>
+        <source>Vision Turn Speed Controller</source>
+        <translation>비전 기반 곡선 차로 속도 조절 제어판</translation>
+    </message>
+
 </context>
 </TS>
