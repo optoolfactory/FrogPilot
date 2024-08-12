@@ -1273,6 +1273,41 @@ This may take up to a minute.</source>
         <translation>상시 조향</translation>
     </message>
     <message>
+        <source>Control Via LKAS Button</source>
+        <translation>차선이탈방지 버튼을 통해 제어</translation>
+    </message>
+    <message>
+        <source>Enable or disable 'Always On Lateral' by clicking your 'LKAS' button.</source>
+        <translation>'차선이탈방지' 버튼을 클릭하여 '상시 조향'을 활성화 또는 비활성화합니다.</translation>
+    </message>
+    <message>
+        <source>Enable On Cruise Main</source>
+        <translation>크루즈 메인에서 활성화</translation>
+    </message>
+    <message>
+        <source>Enable 'Always On Lateral' by clicking your 'Cruise Control' button without requiring openpilot to be enabled first.</source>
+        <translation>먼저 오픈 파일럿을 활성화할 필요 없이 '크루즈 컨트롤' 버튼을 클릭하여 '상시 조향'을 활성화합니다.</translation>
+    </message>
+    <message>
+        <source>Pause On Brake Below</source>
+        <translation>일시 정지 속도</translation>
+    </message>
+    <message>
+        <source>Pause 'Always On Lateral' when the brake pedal is being pressed below the set speed.</source>
+        <translation>브레이크 페달을 설정 속도 이하에서 밟으면 '상시 조향'을 일시 중지 합니다.</translation>
+    </message>
+    <message>
+        <source>Hide the Status Bar</source>
+        <translation>상태 바 숨김</translation>
+    </message>
+    <message>
+        <source>Don't use the status bar for 'Always On Lateral'.</source>
+        <translation>'상시 조향' 상태 표시줄을 사용하지 마십시오.</translation>
+    </message>
+
+
+
+    <message>
         <source>Conditional Experimental Mode</source>
         <translation>조건부 실험 모드</translation>
     </message>
