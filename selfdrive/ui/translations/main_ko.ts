@@ -1290,7 +1290,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Pause On Brake Below</source>
-        <translation>일시 정지 속도</translation>
+        <translation>'상시 조향' 일시 정지 속도</translation>
     </message>
     <message>
         <source>Pause 'Always On Lateral' when the brake pedal is being pressed below the set speed.</source>
@@ -1315,11 +1315,73 @@ This may take up to a minute.</source>
         <source>Automatically switches to 'Experimental Mode' under predefined conditions.</source>
         <translation>사전 정의된 조건에서 자동으로 '실험 모드'로 전환됩니다.</translation>
     </message>
+    <message>
+        <source>Below</source>
+        <translation>하한 속도</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' below this speed when not following a lead vehicle.</source>
+        <translation>선두 차량을 따르지 않을 경우 이 속도 이하의 '실험 모드'로 전환합니다.</translation>
+    </message>
+    <message>
+        <source>Curve Detected Ahead</source>
+        <translation>전방 곡선 도로 감지</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' when a curve is detected.</source>
+        <translation>곡선 도로가 감지되면 '실험 모드'로 전환합니다.</translation>
+    </message>
+    <message>
+        <source>Lead Detected Ahead</source>
+        <translation>선행 차량 감지</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' when a slower or stopped lead vehicle is detected ahead.</source>
+        <translation>전방에 서행하거나 정지된 선행 차량이 감지되면 '실험 모드'로 전환합니다.</translation>
+    </message>
+    <message>
+        <source>Navigation Based</source>
+        <translation>내비게이션 기반</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' based on navigation data. (i.e. Intersections, stop signs, upcoming turns, etc.</source>
+        <translation>내비게이션 데이터를 기반으로 '실험 모드'로 전환합니다. (즉, 교차로, 정지 표지판, 다가오는 방향 등).</translation>
+    </message>
+    <message>
+        <source>Stop Lights and Stop Signs</source>
+        <translation>정지 신호등 및 정지 신호</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' when a stop light or stop sign is detected.</source>
+        <translation>정지등 또는 정지표지가 감지되면 '실험 모드'로 전환합니다.</translation>
+    </message>
+    <message>
+        <source>Turn Signal When Below Highway Speeds</source>
+        <translation>고속도로 제한 속도 이하에서 방향 지시등 사용</translation>
+    </message>
+    <message>
+        <source>Switch to 'Experimental Mode' when using turn signals below highway speeds to help assist with turns.</source>
+        <translation>고속도로 제한 속도 이하에서 방향 지시등을 사용할 때는 '실험 모드'로 전환하여 회전을 돕습니다..</translation>
+    </message>
+    <message>
+        <source>Hide the Status Bar</source>
+        <translation>상태 표시줄 숨기기</translation>
+    </message>
+    <message>
+        <source>Don't use the status bar for 'Conditional Experimental Mode'.</source>
+        <translation>'조건부 실험 모드'에는 상태 표시줄을 사용하지 마세요.</translation>
+    </message>
+
 
     <message>
         <source>Device Management</source>
         <translation>장치 관리자</translation>
     </message>
+    <message>
+        <source></source>
+        <translation></translation>
+    </message>
+
 
     <message>
         <source>Driving Personalities</source>
