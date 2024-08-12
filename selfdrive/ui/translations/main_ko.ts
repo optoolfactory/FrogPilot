@@ -1272,6 +1272,10 @@ This may take up to a minute.</source>
         <source>Always on Lateral</source>
         <translation>상시 조향</translation>
     </message>
+    <message>
+        <source>Maintain openpilot lateral control when the brake or gas pedals are used.<br/><br/>Deactivation occurs only through the 'Cruise Control' button.</source>
+        <translation>브레이크, 엑셀을 조작하여도 상시 조향을 유지 합니다. '크루즈 컨트롤' 버튼을 통해서만 비활성화 됩니다.</translation>
+    </message>
 
     <message>
         <source>Conditional Experimental Mode</source>
@@ -1285,7 +1289,7 @@ This may take up to a minute.</source>
 
     <message>
         <source>Driving Personalities</source>
-        <translation>DrivingPersonalities</translation>
+        <translation>운전 개인화</translation>
     </message>
 
     <message>
@@ -1305,7 +1309,7 @@ This may take up to a minute.</source>
 
     <message>
         <source>Longitudinal Tuning</source>
-        <translation>LongitudinalTune</translation>
+        <translation>크루즈 튜닝</translation>
     </message>
 
     <message>
@@ -1320,7 +1324,7 @@ This may take up to a minute.</source>
 
     <message>
         <source>Quality of Life</source>
-        <translation>Quality of Life</translation>
+        <translation>생활의 질</translation>
     </message>
 
     <message>
