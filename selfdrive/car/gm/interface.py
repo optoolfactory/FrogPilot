@@ -140,7 +140,7 @@ class CarInterface(CarInterfaceBase):
         ret.longitudinalTuning.kpV = [2.0, 1.5]
         ret.longitudinalTuning.kiV = [0.72]
 
-      ret.stoppingDecelRate = 2.0  # reach brake quickly after enabling
+      ret.stoppingDecelRate = 0.1  # reach brake quickly after enabling
       ret.vEgoStopping = 0.25
       ret.vEgoStarting = 0.25
 
@@ -384,9 +384,9 @@ class CarInterface(CarInterfaceBase):
     if self.resumeRequired_shown and not ret.cruiseState.standstill:
       self.disable_resumeRequired = True
 
-    if ret.vEgo < self.CP.minSteerSpeed and not self.disable_belowSteerSpeed:
-      events.add(EventName.belowSteerSpeed)
-      self.belowSteerSpeed_shown = True
+    #if ret.vEgo < self.CP.minSteerSpeed and not self.disable_belowSteerSpeed:
+      #events.add(EventName.belowSteerSpeed)
+      #self.belowSteerSpeed_shown = True
 
     # Disable the "belowSteerSpeed" event after it's been shown once to not annoy the driver
     if self.belowSteerSpeed_shown and ret.vEgo >= self.CP.minSteerSpeed:
