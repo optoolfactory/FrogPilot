@@ -1264,4 +1264,21 @@ This may take up to a minute.</source>
         <translation>삭제</translation>
     </message>
 </context>
+
+
+<context>
+    <name>Controls</name>
+    <message>
+        <source>Always on Lateral</source>
+        <translation>상시 조향</translation>
+    </message>
+    <message>
+        <source>Maintain openpilot lateral control when the brake or gas pedals are used.</source>
+        <translation>브레이크나 엑셀을 밟아도 오픈파일럿의 조향을 상시 유지 합니다.</translation>
+    </message>
+    <message>
+        <source>Deactivation occurs only through the 'Cruise Control' button.</source>
+        <translation>크루즈 컨트롤 버튼을 통해서만 비활성화 가능합니다.</translation>
+    </message>
+</context>
 </TS>
