@@ -114,7 +114,7 @@ class CarInterface(CarInterfaceBase):
       ret.transmissionType = TransmissionType.automatic
 
     if use_new_api:
-      ret.longitudinalTuning.kiBP = [5., 35.]
+      ret.longitudinalTuning.kiBP = [5., 35., 60.]
     else:
       ret.longitudinalTuning.deadzoneBP = [0.]
       ret.longitudinalTuning.deadzoneV = [0.15]
@@ -133,7 +133,7 @@ class CarInterface(CarInterfaceBase):
 
       # Tuning for experimental long
       if use_new_api:
-        ret.longitudinalTuning.kiV = [.05, .07]
+        ret.longitudinalTuning.kiV = [.05, .07, .1]
         ret.vEgoStopping = 0.1
         ret.vEgoStarting = 0.1
       else:
